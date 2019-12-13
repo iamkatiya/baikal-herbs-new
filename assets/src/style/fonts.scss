@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'MyriadPro-Light';
+  src: url('../fonts/MyriadPro-LightSemiExt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-BlackCond';
+  src: url('../fonts/MyriadPro-BlackCond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-BoldCond';
+  src: url('../fonts/MyriadPro-BoldCond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-Semibold';
+  src: url('../fonts/MyriadPro-SemiboldCond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-SemiCn';
+  src: url('../fonts/MyriadPro-SemiCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.text-white-uppercase
+{
+  font-family: MyriadPro-Light, sans-serif;
+  font-size: 14px;
+  color: #f9f9f9;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.banner-text-bold
+{
+  font-family: MyriadPro-BlackCond, sans-serif;
+  font-size: 234px;
+  color: #f9f9f9;
+}
+.banner-text-white
+ {
+   font-family: MyriadPro-BoldCond, sans-serif;
+   color: #f9f9f9;
+   font-size: 48px;
+   text-transform: uppercase;
+ }
+.banner-text-green
+{
+  font-family: MyriadPro-BoldCond, sans-serif;
+  color: #8CBC43;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+.banner-text-description-mini
+{
+  font-family: MyriadPro-Light, sans-serif;
+  font-size: 16px;
+  color: #f9f9f9;
+}
+.usu-text
+{
+  font-family: MyriadPro-Regular,sans-serif;
+  font-size: 16px;
+  color: #1f1f1f;
+}
+.head-blocks
+{
+  font-family: MyriadPro-Semibold, sans-serif;
+  font-size: 96px;
+  text-transform: uppercase;
+  color: #1f1f1f;
+}
+.green
+{
+  color: #8CBC43;
+}
+.head-blocks-thin
+{
+  font-family: MyriadPro-SemiCn,sans-serif;
+  font-size: 52px;
+  text-transform: uppercase;
+}
+.big-letter-spacing
+{
+  letter-spacing: .25em;
+}

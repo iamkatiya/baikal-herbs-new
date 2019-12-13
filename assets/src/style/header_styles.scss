@@ -1,0 +1,64 @@
+.header-desktop
+{
+  position: absolute;
+  top: 42px;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  padding: 19px 138px;
+
+}
+.header-herbs-logo
+{
+  display: flex;
+  flex: 6.8%;
+}
+.header-nav-menu
+{
+  display: flex;
+  flex: 86%;
+  align-items: center;
+  padding-left: 40px;
+}
+.header-nav-menu-item
+{
+  padding: 0 40px;
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+  &:hover
+  {
+    .header-nav-menu-item-arrow
+    {
+      transform: rotate(-180deg);
+    }
+  }
+}
+.header-language-block
+{
+  display: flex;
+  flex: 6.8%;
+  align-items: center;
+}
+.header-language-check
+{
+  display: flex;
+  &:hover
+  {
+    .header-nav-menu-item-arrow
+    {
+      transform: rotate(-180deg);
+    }
+  }
+  background-image: url("/../img/Flag.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  padding-left: 25px;
+}
+.header-nav-menu-item-arrow
+{
+  margin-left: 10px;
+  transition: .4s;
+}
