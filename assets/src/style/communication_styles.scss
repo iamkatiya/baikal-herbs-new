@@ -1,0 +1,35 @@
+.communication-block
+{
+  display: flex;
+
+}
+.feedback-block
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 50%;
+  background: #F9F9F9;
+  padding-top: 34px;
+  padding-left: 207px;
+}
+.contacts-block
+{
+  display: flex;
+  flex: 50%;
+  background: #8CBC43;
+  padding-top: 34px;
+  padding-left: 62px;
+  flex-wrap: wrap;
+}
+.contacts-form
+{
+  padding-left: 62px;
+}
+.p-22
+{
+  padding-top: 22px;
+}
+.p-12
+{
+  padding-top: 12px;
+}

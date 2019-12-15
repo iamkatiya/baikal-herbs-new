@@ -34,6 +34,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .text-white-uppercase
 {
   font-family: MyriadPro-Light, sans-serif;
@@ -74,6 +75,12 @@
   font-size: 16px;
   color: #1f1f1f;
 }
+.usu-text-white
+{
+  font-family: MyriadPro-Regular,sans-serif;
+  font-size: 16px;
+  color: #f9f9f9;
+}
 .head-blocks
 {
   font-family: MyriadPro-Semibold, sans-serif;
@@ -81,9 +88,19 @@
   text-transform: uppercase;
   color: #1f1f1f;
 }
+.contacts-head
+{
+  font-family: MyriadPro-Semibold, sans-serif;
+  color: #f9f9f9;
+  font-size: 22px;
+}
 .green
 {
   color: #8CBC43;
+}
+.white
+{
+  color: #F9F9F9;
 }
 .head-blocks-thin
 {

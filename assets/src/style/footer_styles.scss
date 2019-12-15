@@ -1,7 +1,50 @@
 .footerContainer
 {
-  max-width: 1500px;
+  max-width: 1920px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 0;
   display: flex;
+  padding: 40px 0 28px;
+}
+.footer-nav
+{
+  width: 100%;
+  background: #1F1F1F;
+}
+.footer-padding
+{
+  padding: 13px 0;
+  width: 100%;
+}
+.footer-block
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.first
+{
+  flex: 30%;
+  padding-left: 10%;
+}
+.second
+{
+  flex: 20%;
+}
+.copyright_footer
+{
+  position: inherit;
+  padding-top: 100px;
+}
+.footer-block-map
+{
+  flex: 50%;
+  height: 100%;
+  position: relative;
+}
+.map
+{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -40px;
 }

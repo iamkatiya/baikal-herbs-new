@@ -204,9 +204,10 @@
 }
 .myContainer
 {
-  max-width: 1500px;
+  max-width: 1540px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 .about
 {
@@ -234,6 +235,16 @@
   background: #F9F9F9;
   border-right: 4px solid #8CBC43;
 }
+.slider-history-background
+{
+  position: absolute;
+  left: 0;
+  height: 672px;
+  background: #F9F9F9;
+  border-left: 4px solid #8CBC43;
+  margin-top: 50px;
+  right: -30%;
+}
 .about-background-lines
 {
   position: absolute;
@@ -255,4 +266,23 @@
   left: 15px;
   bottom: -30px;
   padding: 20px;
+}
+.company-history
+{
+  margin-top: 132px;
+}
+.history-image
+{
+  position: absolute;
+  margin-top: 180px;
+}
+.item
+{
+  height: 672px;
+}
+.owl-carousel .owl-stage-outer
+{
+  height: 900px;
+  width: 100%;
+  margin-left: 35%;
 }
