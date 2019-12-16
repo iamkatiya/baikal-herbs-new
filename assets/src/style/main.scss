@@ -39,8 +39,8 @@
 @import "../../../node_modules/bootstrap/scss/_spinners";
 @import "../../../node_modules/bootstrap/scss/_utilities";
 @import "../../../node_modules/bootstrap/scss/_print";
-@import "../../../node_modules/owl.carousel2/dist/assets/owl.carousel.min.css";
-@import "../../../node_modules/owl.carousel2/dist/assets/owl.theme.default.css";
+@import "../../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css";
+@import "../../../node_modules/owl.carousel/dist/assets/owl.theme.default.css";
 
 // Подключение своих SCSS файлов
 @import "my";
@@ -49,3 +49,4 @@
 @import "footer_styles";
 @import "fonts";
 @import "communication_styles";
+@import "technology_styles";

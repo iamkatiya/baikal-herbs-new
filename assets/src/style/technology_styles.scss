@@ -1,0 +1,71 @@
+.inner .banner-text-bold {
+  font-size: 146px;
+}
+
+.index-banner .container {
+  padding-top:122px;
+}
+/*поправить после корреткировки верстки главной странииы*/
+.index-banner_main-textblock {
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-bottom:114px;
+  margin-top:140px;
+}
+.index-banner {
+  min-height: 720px;
+}
+.index-banner_buttons-textblock {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.video-button-block {
+  position: relative;
+  bottom: auto;
+  right: auto;
+  top:auto;
+  width: 138px;
+  height: 138px;
+  margin-right: 200px;
+}
+
+/*добавить в общий шаблон*/
+.container {
+  max-width:1564px;
+  width: 100%;
+  margin:auto;
+  padding:0 10px;
+}
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a.underline {
+  text-decoration: none;
+  border-bottom: 1px solid #F9F9F9;
+}
+a.underline:hover {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+a.text-white-uppercase {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#F9F9F9;
+}
+a.text-white-uppercase:hover {
+  text-decoration: none;
+  color:#F9F9F9;
+}
+.underline:before {
+  display: none;
+}
