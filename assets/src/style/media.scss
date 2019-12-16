@@ -13,6 +13,17 @@
     border-right: 0;
   }
 }
+@media (max-width: 1100px) {
+  .cowork-rubrik-item {
+    height:200px;
+  }
+  .head-blocks {
+    font-size:60px;
+  }
+  .head-blocks-thin {
+    font-size:40px;
+  }
+}
 
 @media (max-width: 900px) {
   .technology .about-info-text.bg-right {
@@ -21,8 +32,14 @@
     flex: 0 0 100%;
     padding-right: 0;
   }
-  .about.technology .col-6,
-  .about.cowork .col-6 {
+  .economy-item-title {
+    font-size:40px;
+  }
+  .economy-block {
+    border-right:0;
+    padding-right:0;
+  }
+  .col-6 {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -52,5 +69,14 @@
   .cowork-rubrik-item {
     margin:24px 0;
     width:100%;
+  }
+}
+@media (max-width: 700px) {
+  .economy-item {
+    width: 100%;
+    padding-left: 50px;
+  }
+  .economy-item-title {
+    font-size: 30px;
   }
 }
