@@ -17,4 +17,13 @@ $(document).ready(function() {
             }
         }
     });
+    $('#owl_cowork').owlCarousel({
+        margin:10,
+        loop:true,
+        nextArrow: '<a class="arrow-next"></a>',
+        prevArrow: '<a class="arrow-prev"></a>',
+        autoWidth:true,
+        items:2,
+        dots: false
+    })
 });

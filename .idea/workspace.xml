@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81ae300e-6ba1-427e-bbe2-7acc05862a58" name="Default Changelist" comment="" />
+    <list default="true" id="81ae300e-6ba1-427e-bbe2-7acc05862a58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/src/cowork-brand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/src/cowork-opt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/src/style/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/src/technology-control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/src/technology-extracts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/src/technology-lab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/js/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/communication_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/communication_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/technology_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/technology_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/technology-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/technology-product.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -35,11 +49,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$USER_HOME$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/src/style" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/src" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TrueCoder\Desktop\baikal-herbs-new-2\assets\src" />
       <recent name="C:\Users\TrueCoder\Desktop\baikal-herbs-new-master\assets\src\style" />
       <recent name="C:\Users\TrueCoder\Desktop\baikal-herbs-new-master\assets\src" />
     </key>
@@ -106,11 +122,23 @@
       <workItem from="1576459735643" duration="8000" />
       <workItem from="1576459745457" duration="4953000" />
       <workItem from="1576465516267" duration="3392000" />
+      <workItem from="1576469223048" duration="15526000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="691" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576041292984">
