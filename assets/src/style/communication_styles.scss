@@ -34,10 +34,14 @@
 {
   display: flex;
   flex: 50%;
-  background: #8CBC43;
+  background-color: #8CBC43;
   padding-top: 34px;
   padding-left: 62px;
   flex-wrap: wrap;
+  background-image: url("/../img/contact-background.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
 }
 .contacts-form
 {
@@ -163,20 +167,23 @@ textarea { border-bottom: 1px solid }
 .contacts-block-comment textarea
 {
   resize: none;
-  background: url(/../img/textarea.svg) 0 30px;
+  background: url(/../img/textarea.svg) 0 37px;
+  background-repeat: no-repeat;
   border-bottom: 0;
-  line-height: 2.6;
+  line-height: 2.5;
   border: none;
+  margin-top: -11px;
   width: 100%;
 }
 .contacts-form-address
 {
   flex: 100%;
-  padding-right: 65px;
+  padding-right: 30px;
 }
 .contacts-block-comment
 {
   flex: 100%;
+  padding-left: 30px;
 }
 .contacts-block-send-button
 {
@@ -202,4 +209,8 @@ textarea { border-bottom: 1px solid }
   {
     background: #658535;
   }
+}
+textarea:focus, input:focus
+{
+  outline: none;
 }

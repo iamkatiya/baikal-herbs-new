@@ -302,23 +302,27 @@
 {
   width: 90px;
   height: 90px;
-  background-color:#8CBC43;
-  color:#8CBC43;
-  background-image: url("../img/slider-left.svg");
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
+  background-color:#8CBC43!important;
+  color:#8CBC43!important;
+  background-image: url("../img/slider-left.svg")!important;
+  background-repeat: no-repeat!important;
+  background-position-x: center!important;
+  background-position-y: center!important;
+  margin: 0!important;
+  border-radius: 0!important;
 }
 .owl-next
 {
   width: 90px;
   height: 90px;
-  background-color:#8CBC43;
-  color:#8CBC43;
-  background-image: url("../img/slider-right.svg");
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
+  background-color:#8CBC43!important;
+  color:#8CBC43!important;
+  background-image: url("../img/slider-right.svg")!important;
+  background-repeat: no-repeat!important;
+  background-position-x: center!important;
+  background-position-y: center!important;
+  margin: 0!important;
+  border-radius: 0!important;
 }
 .owl-nav
 {
@@ -327,9 +331,55 @@
   left: 64px;
   position: absolute;
   width: 100%;
-  margin-left: 35%;
 }
 .technologies
 {
   margin-top: 163px;
+}
+.scientists-photo
+{
+}
+.myContainerNew
+{
+  max-width: 1752px;
+  margin-right: auto;
+  margin-left: 0;
+}
+.tech-background-block
+{
+  position: absolute;
+  width: 122%;
+  height: 392px;
+  left: -20%;
+  top: 96px;
+  background: #f9f9f9;
+  border-right: 4px solid #8cbc43;
+}
+.tech-info-text
+{
+  padding: 134px 81px 0 61px;
+  position: relative;
+}
+.tech-block
+{
+  bottom: 105px;
+}
+.contract-manufacturing
+{
+  margin-top: 195px;
+}
+.bookmarks
+{
+  position: absolute;
+  top: 260px;
+  z-index: 10;
+}
+.test
+{
+  display: flex;
+  li
+  {
+    list-style: none;
+    padding: 0 43px;
+  }
 }
