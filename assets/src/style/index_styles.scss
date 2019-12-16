@@ -2,35 +2,32 @@
 {
   background-size: cover;
   width: 100vw;
+  background-image: url("/../img/index-banner.jpg");
+  min-height: 770px;
 }
 .index-banner
 {
   position: relative;
 }
-.index-banner_main-textblock
+.main-banner
 {
-  position: absolute;
-  top: 19%;
-  left: 207px;
+ margin-top: 75px;
 }
 .index-banner_buttons-textblock
 {
-  position: absolute;
-  bottom: 166px;
-  left: 0;
+  margin-top: 50px;
   display: flex;
   align-items: center;
 }
 .banner-text-description
 {
-  position: absolute;
+
   display: flex;
-  top: 71%;
+
 }
 .index-banner-description-mini
 {
-  position: absolute;
-  top: 94%;
+
 }
 .index-banner-cooperate-button
 {
@@ -331,4 +328,8 @@
   position: absolute;
   width: 100%;
   margin-left: 35%;
+}
+.technologies
+{
+  margin-top: 163px;
 }
