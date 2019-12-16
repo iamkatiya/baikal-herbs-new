@@ -5,7 +5,7 @@ $(document).ready(function() {
         nav: true,
         items: 1,
         speed: 16000,
-
+        animateOut: 'fadeOut',
         nextArrow: '<a class="arrow-next"></a>',
         prevArrow: '<a class="arrow-prev"></a>',
         responsive: {
