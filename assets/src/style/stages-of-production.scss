@@ -61,20 +61,14 @@
 }
 
 .slider-noactive {
-    font-family: Myriad Pro;
+    font-family: 'MyriadPro-SemiExt';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 100%;
-    /* identical to box height, or 18px */
-
-    display: flex;
-    align-items: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-
-    /* Main Black */
-
     color: #1F1F1F;
     opacity: 0.25;
 }
+

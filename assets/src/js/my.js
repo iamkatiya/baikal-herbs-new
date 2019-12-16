@@ -56,6 +56,7 @@ $(document).ready(function() {
 
         $('.teamarks li').on('click', function(e) {
             owl1.trigger('to.owl.carousel', [$(this).index(), 300]);
+            
         });
     });
 });
