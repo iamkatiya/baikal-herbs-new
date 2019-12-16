@@ -17,4 +17,12 @@ $(document).ready(function() {
             }
         }
     });
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 10) {
+            $('.header-desktop').addClass("header-scroll")
+        }
+       else {
+            $('.header-desktop').removeClass("header-scroll")
+        }
+    });
 });

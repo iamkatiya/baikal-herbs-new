@@ -1,12 +1,25 @@
 .header-desktop
 {
-  position: absolute;
+  position: fixed;
   top: 42px;
   display: flex;
   width: 100%;
   z-index: 1;
   padding: 19px 138px;
 
+}
+.header-scroll
+{
+  background: white;
+  position: fixed;
+  transition: 1s;
+  top:0;
+  color: #1F1F1F;
+  .header-nav-menu-item {
+    .text-white-uppercase {
+      color: #1f1f1f;
+    }
+  }
 }
 .header-herbs-logo
 {
