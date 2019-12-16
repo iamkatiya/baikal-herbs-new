@@ -6,7 +6,17 @@
   width: 100%;
   z-index: 1;
   padding: 19px 138px;
-
+}
+.header-scroll
+{
+  background-color: #f9f9f9;
+  position: fixed;
+  top: 0;
+  transition: .5s;
+  .header-nav-menu-item-arrow
+  {
+    background-image:  url("/../img/header-arrow-black.svg");
+  }
 }
 .header-herbs-logo
 {
@@ -25,20 +35,38 @@
   padding: 0 40px;
   display: flex;
   position: relative;
-  overflow-x: hidden;
   &:hover
   {
     .header-nav-menu-item-arrow
     {
       transform: rotate(-180deg);
     }
+    .header-nav-menu-absolute
+    {
+      opacity: 1;
+      visibility: visible;
+    }
   }
+}
+.header-nav-menu-absolute
+{
+  position: absolute;
+  top: 50px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+  display: block;
+}
+.header-nav-menu-absolute-scroll
+{
+  background-color: #f9f9f9;
 }
 .header-language-block
 {
   display: flex;
   flex: 6.8%;
   align-items: center;
+  position: relative;
 }
 .header-language-check
 {
@@ -49,6 +77,11 @@
     {
       transform: rotate(-180deg);
     }
+    .header-nav-menu-absolute
+    {
+      opacity: 1;
+      visibility: visible;
+    }
   }
   background-image: url("/../img/Flag.svg");
   background-size: 15px;
@@ -57,8 +90,22 @@
   background-position-y: center;
   padding-left: 25px;
 }
+.arabian
+{
+  background-image: url("/../img/arabian.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  padding-left: 25px;
+}
 .header-nav-menu-item-arrow
 {
-  margin-left: 10px;
-  transition: .4s;
+  background-image:  url("/../img/header-arrow.svg");
+  background-size: contain;
+  width: 10px;
+  transition: .5s;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right;
 }

@@ -34,10 +34,16 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'MyriadPro-SemiExt';
+  src: url('../fonts/MyriadPro-SemiExt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .text-white-uppercase
 {
-  font-family: MyriadPro-Light, sans-serif;
+  font-family: MyriadPro-Regular, sans-serif;
   font-size: 14px;
   color: #f9f9f9;
   letter-spacing: 0.15em;
@@ -118,5 +124,13 @@
 {
   letter-spacing: .25em;
 }
-
+.bookmark1, .bookmark2, .bookmark3, .bookmark4, .bookmark5
+{
+  font-family: 'MyriadPro-SemiExt', sans-serif;
+  opacity: .25;
+  &:hover
+  {
+    cursor: pointer;
+  }
+}
 @import "fonts_dmitriy";
