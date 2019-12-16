@@ -46,8 +46,11 @@ $(document).ready(function() {
 
     $(document).ready(function(){
         var owl1 = $(".owl-carousel").owlCarousel({
+            loop: true,
             dots: true,
             nav: true,
+            items: 2,
+            speed: 16000,
             animateOut: 'fadeOut',
         });
 
