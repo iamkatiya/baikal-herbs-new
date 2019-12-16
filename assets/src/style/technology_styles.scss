@@ -240,7 +240,11 @@ a.text-white-uppercase:hover {
   background-position: 0 0;
   background-repeat: no-repeat;
   margin-bottom: 25px;
-
+  min-width:280px;
+  padding-right:50px;
+&.flex-box {
+  align-items:flex-start;
+}
   p {
     max-width: 368px;
   }
