@@ -2,3 +2,4 @@ node_modules/
 .vscode/
 assets/build/
 package-lock.json
+.idea/baikal-herbs.iml

@@ -20,4 +20,4 @@
 
 // Импортируем другие js-файлы
 //= my.js
-//= ../../../node_modules/owl.carousel2/dist/owl.carousel.js
+//= ../../../node_modules/owl.carousel/dist/owl.carousel.js
