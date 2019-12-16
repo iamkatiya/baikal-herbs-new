@@ -43,5 +43,19 @@ $(document).ready(function() {
     $('.bookmarks li').on('click', function(e) {
         owl.trigger('to.owl.carousel', [$(this).index(), 300]);
     });
+
+    $(document).ready(function(){
+        var owl1 = $(".owl-carousel").owlCarousel({
+            dots: true,
+            nav: true,
+            animateOut: 'fadeOut',
+        });
+
+        $('.teamarks li').on('click', function(e) {
+            owl1.trigger('to.owl.carousel', [$(this).index(), 300]);
+        });
+    });
 });
+
+
 
