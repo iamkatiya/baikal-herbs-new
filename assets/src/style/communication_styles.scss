@@ -3,6 +3,11 @@
   display: flex;
 
 }
+.row-flex
+{
+  display: flex;
+  flex: 100%;
+}
 .feedback-block
 {
   display: flex;
@@ -11,6 +16,19 @@
   background: #F9F9F9;
   padding-top: 34px;
   padding-left: 207px;
+  padding-right: 129px;
+  input
+  {
+    border-width: 1px;
+    border-color:#8CBC43;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: MyriadPro-Regular, sans-serif;
+    color: #1F1F1F;
+    background-color: #f9f9f9;
+  }
 }
 .contacts-block
 {
@@ -25,6 +43,10 @@
 {
   padding-left: 62px;
 }
+.form-info
+{
+  width: 100%;
+}
 .p-22
 {
   padding-top: 22px;
@@ -32,4 +54,152 @@
 .p-12
 {
   padding-top: 12px;
+}
+.mt-19
+{
+  margin-top: 19px;
+}
+.contacts-icons-block
+{
+  width: 210px;
+  height: 30px;
+  padding-top: 46px;
+  padding-bottom: 122px;
+}
+.contacts-vkIcon
+{
+  margin-right: 30px;
+}
+.contacts-facebookIcon
+{
+  margin-right: 30px;
+}
+.contacts-okIcon
+{
+  margin-right: 30px;
+}
+#cb1
+{
+  margin-top: 38px;
+  font-family: MyriadPro-Regular,sans-serif;
+  color: #1f1f1f;
+}
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked),
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked)
+{
+  position: absolute;
+  left: -9999px;
+}
+
+input[type="checkbox"]:checked + label,
+input[type="checkbox"]:not(:checked) + label,
+input[type="radio"]:checked + label,
+input[type="radio"]:not(:checked) + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  line-height: 20px;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"]:not(:checked) + label:before,
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #8CBC43;
+  background-color: #f9f9f9;
+}
+
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+  border-radius: 100%;
+}
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after,
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+  content: "";
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after {
+  left: 3px;
+  top: 3px;
+  width: 10px;
+  height: 10px;
+  background-color: #8CBC43;
+}
+
+input[type="checkbox"]:not(:checked) + label:after,
+input[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked + label:after,
+input[type="radio"]:checked + label:after {
+  opacity: 1;
+}
+.policy-check
+{
+  margin-top: 38px;
+}
+.privacy-policy
+{
+  color: #1f1f1f;
+}
+textarea { border-bottom: 1px solid }
+.contacts-block-comment textarea
+{
+  resize: none;
+  background: url(/../img/textarea.svg) 0 30px;
+  border-bottom: 0;
+  line-height: 2.6;
+  border: none;
+  width: 100%;
+}
+.contacts-form-address
+{
+  flex: 100%;
+  padding-right: 65px;
+}
+.contacts-block-comment
+{
+  flex: 100%;
+}
+.contacts-block-send-button
+{
+  width: 100%;
+  position: relative;
+  margin: 65px 0;
+}
+.contacts-form-cooperate-button
+{
+  background: #8CBC43;
+  max-width: 385px;
+  bottom: -15px;
+  width: 100%;
+  padding-left: 207px;
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  align-items: center;
+  position: absolute;
+  left: -207px;
+  transition: .5s;
+  &:hover
+  {
+    background: #658535;
+  }
 }
