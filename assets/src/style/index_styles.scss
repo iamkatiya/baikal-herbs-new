@@ -305,7 +305,7 @@
   width: 90px;
   height: 90px;
   background-color:#8CBC43!important;
-  color:#8CBC43!important;
+  color:transparent!important;
   background-image: url("../img/slider-left.svg")!important;
   background-repeat: no-repeat!important;
   background-position-x: center!important;
@@ -318,7 +318,7 @@
   width: 90px;
   height: 90px;
   background-color:#8CBC43!important;
-  color:#8CBC43!important;
+  color:transparent!important;
   background-image: url("../img/slider-right.svg")!important;
   background-repeat: no-repeat!important;
   background-position-x: center!important;
@@ -379,10 +379,16 @@
 .test
 {
   display: flex;
+  align-items: center;
   li
   {
     list-style: none;
     padding: 0 43px;
   }
+}
+.active
+{
+  font-size: 50px;
+  opacity: 1!important;
 }
 @import "index_styles_dmitriy.scss";
