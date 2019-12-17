@@ -55,8 +55,8 @@
 
 .teamarks {
     position: absolute;
-    left: 225px;
-    top: 269px;
+    left: 33px;
+    top: 48px;
     z-index: 10;
 }
 
@@ -106,4 +106,8 @@
 .main
 {
     min-height: 770px;
+}
+
+.slider-container {
+    position: relative;
 }

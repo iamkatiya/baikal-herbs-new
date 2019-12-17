@@ -1,0 +1,30 @@
+@media (max-width: 1710px) {
+    .about-info-text_tea {
+        padding: 115px 215px 0 61px;
+    }
+}
+
+@media (max-width: 1540px) {
+    .about-info {
+        flex-wrap: wrap;
+    }
+
+    .myContainer {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .col-5, .col-4 {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .col-7, .col-8
+    {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .about-info-text
+    {
+        padding: 50px 0 0 0;
+    }
+    
+}
