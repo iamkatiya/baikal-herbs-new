@@ -471,4 +471,11 @@
   right: 0;
   bottom: 230px;
 }
+.manuf-background-lines
+{
+  position: absolute;
+  left: 0;
+  top: 655px;
+  z-index: -1;
+}
 @import "index_styles_dmitriy.scss";
