@@ -8,6 +8,7 @@
 }
 .footer-nav
 {
+  position: relative;
   width: 100%;
   background: #1F1F1F;
 }
@@ -47,4 +48,17 @@
   right: 0;
   left: 0;
   top: -40px;
+}
+.btn-top {
+  cursor:pointer;
+  width: 90px;
+  height: 90px;
+  background: #8cbc43 url(../img/slider-left.svg) center center no-repeat!important;
+  position: absolute;
+  bottom:0;
+  left:0;
+  transform: rotate(90deg);
+}
+.btn-top:hover {
+  background: #76a035 url(../img/slider-left.svg) center center no-repeat!important;
 }

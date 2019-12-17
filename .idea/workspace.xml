@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6087834a-bf84-4448-af30-81eb56eb957a" name="Default Changelist" comment="" />
+    <list default="true" id="6087834a-bf84-4448-af30-81eb56eb957a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/js/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/communication_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/communication_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/footer_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/footer_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/header_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/header_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/index_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/index_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/my.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/technology-lab.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/technology-lab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/template/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/template/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/template/header.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,19 +39,48 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baikal_wood" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.default" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,11 +93,23 @@
       <option name="presentableId" value="Default" />
       <updated>1576546639803</updated>
       <workItem from="1576546641535" duration="9095000" />
+      <workItem from="1576563690338" duration="5971000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1576504360058">

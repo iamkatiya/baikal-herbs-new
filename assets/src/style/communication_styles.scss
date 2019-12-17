@@ -114,7 +114,7 @@ input[type="radio"]:not(:checked) + label:before {
   content: "";
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 2px;
   width: 16px;
   height: 16px;
   border: 1px solid #8CBC43;
@@ -140,7 +140,7 @@ input[type="radio"]:not(:checked) + label:after {
 input[type="checkbox"]:checked + label:after,
 input[type="checkbox"]:not(:checked) + label:after {
   left: 3px;
-  top: 3px;
+  top: 5px;
   width: 10px;
   height: 10px;
   background-color: #8CBC43;

@@ -1,4 +1,32 @@
 $(document).ready(function() {
+    //плавная прокурутка наверх
+    $('.btn-top').click(function() {
+        $('body, html').animate({ scrollTop: 0 }, 750);
+    });
+
+    //бургер
+    $('#burger').click(function(){
+        if ($(this).hasClass('open')) {
+            $(this).removeClass('open');
+            $(this).next().fadeOut();
+            $('.header-nav-lang-current a').css('color', '#ffffff');
+            $('.header-nav-lang-current i').css('border-color', '#ffffff');
+        }
+        else {
+            $(this).addClass('open');
+            $(this).next().fadeIn();
+            $('.header-nav-lang-current a').css('color', '#3D3D3D');
+            $('.header-nav-lang-current i').css('border-color', '#3D3D3D');
+
+        }
+    });
+    if ($(window).width() < 1400) {
+        $('.header-nav-menu').insertAfter('#burger');
+        $('.header-nav-menu .with-child').click(function(){
+            $(this).find('.header-nav-menu-inner').show().addClass('inner-menu-li-mobile');
+        });
+    }
+
     // $('.history-carousel').owlCarousel({
     //     loop: true,
     //     dots: true,

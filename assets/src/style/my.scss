@@ -1,6 +1,13 @@
+a {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
 a:hover
 {
   text-decoration: none;
+}
+a.usu-text-white:hover {
+  color:#fff;
 }
 body
 {
@@ -8,7 +15,8 @@ body
 }
 button
 {
-  border: transparent;
+  border: transparent;-webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 button:focus
 {

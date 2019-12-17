@@ -14,6 +14,10 @@
     font-size: 60px;
     bottom:-5px;
   }
+
+  .burger-mobile {
+    display: block;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -33,6 +37,9 @@
   }
   .head-blocks-thin {
     font-size:40px;
+  }
+  .video-button-block {
+    margin-right:0;
   }
 }
 
@@ -72,7 +79,21 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+  .main-banner .flex-box div:first-child {
+    width:100%;
+  }
+  .video-button-block {
+    margin:50px 20px 0;
+    display: table;
+  }
+  .banner-text-bold {
+    font-size:180px;
+    line-height:1;
+  }
+}
+
+@media (max-width: 800px) {
   .cowork-rubrik {
     border-left: 0;
     padding-left: 0;
@@ -80,6 +101,17 @@
   .cowork-rubrik-item {
     margin:24px 0;
     width:100%;
+  }
+  .index-banner-cooperate-button {
+    max-width:300px;
+    margin-bottom:30px;
+    margin-right:50px;
+  }
+  .index-banner_buttons-textblock {
+    a {
+      margin-bottom:30px;
+      margin-left:10px!important;
+    }
   }
 }
 @media (max-width: 700px) {
@@ -89,5 +121,33 @@
   }
   .economy-item-title {
     font-size: 30px;
+  }
+}
+@media (max-width: 560px)
+{
+  .banner-text-description {
+    flex-wrap: wrap;
+    display: flex;
+    p {
+      margin: 0;
+      line-height:1;
+    }
+
+    .banner-text-white.pl-2 {
+      padding-left: 0!important;
+      margin-bottom:20px;
+    }
+  }
+  .main-banner {
+    margin-top:30px;
+  }
+
+  .banner-text-bold {
+    font-size:100px;
+  }
+}
+@media (max-width: 400px){
+  .banner-text-white {
+    font-size: 36px;
   }
 }
