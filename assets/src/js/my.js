@@ -93,6 +93,7 @@ $(document).ready(function() {
             items: 2,
             speed: 16000,
             animateOut: 'fadeOut',
+            dotsContainer: '.teeest',
         });
 
         $('.teamarks li').on('click', function(e) {
