@@ -280,7 +280,7 @@
 {
   height: 672px;
 }
-.owl-carousel .owl-stage-outer
+.history-carousel.owl-carousel .owl-stage-outer
 {
   height: 900px;
   margin-left: 5%;
@@ -395,6 +395,18 @@
 {
   &:hover {
     text-decoration: transparent;
+    border-bottom: 1px solid transparent;
+    color: #8cbc43;
+  }
+}
+.header-nav-menu a
+{
+  &:hover {
+    text-decoration: transparent;
+    border-bottom: 1px solid transparent;
+    .text-white-uppercase {
+      color: #8cbc43;
+    }
   }
 }
 @import "index_styles_dmitriy.scss";

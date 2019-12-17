@@ -47,6 +47,7 @@ $(document).ready(function() {
         if ($(window).scrollTop() > 10) {
         $(".header-desktop").addClass('header-scroll');
             $(".header-nav-menu-item .text-white-uppercase").addClass('black');
+            $(".header-nav-menu-item").addClass('black');
             $(".header-nav-menu-absolute").addClass('header-nav-menu-absolute-scroll');
         }
         else
