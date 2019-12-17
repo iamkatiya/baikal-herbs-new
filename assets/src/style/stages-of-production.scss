@@ -1,0 +1,74 @@
+.stages-of-production {
+    margin-bottom: 259px;
+    margin-top: 95px;
+    position: relative;
+}
+
+.owl-carousel {
+    border-left: 5px solid#8CBC43;
+    padding-top: 111px;
+    background: #F9F9F9;
+    margin-top: 48px;
+}
+
+.owl-carousel .owl-stage-outer {
+    height: 650px;
+}
+
+.owl-carousel .owl-nav {
+    bottom: -45px;
+}
+
+.owl-carousel .item {
+    position: relative;
+}
+
+.owl-carousel .item {
+    &__title {
+        font-family: 'MyriadPro-BoldCond';
+        font-weight: 600;
+        font-size: 100px;
+        line-height: 120px;
+        color: #F9F9F9;
+        position: absolute;
+        bottom: 245px;
+        left: 37px;
+        text-transform: uppercase;
+
+        &_tech {
+            left: 42px;
+        }
+    }
+
+    &__desc {
+        font-family: 'MyriadPro-Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #1F1F1F;
+        width: 79%;
+        margin-left: 45px;
+        margin-top: 41px;
+    }
+}
+
+.teamarks {
+    position: absolute;
+    left: 240px;
+    top: 264px;
+    z-index: 10;
+}
+
+.slider-noactive {
+    font-family: 'MyriadPro-SemiExt';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #1F1F1F;
+    opacity: 0.25;
+}
+
