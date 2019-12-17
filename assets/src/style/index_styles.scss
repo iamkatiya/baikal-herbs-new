@@ -391,4 +391,10 @@
   font-size: 50px;
   opacity: 1!important;
 }
+.header-nav-menu-absolute a.text-white-uppercase
+{
+  &:hover {
+    text-decoration: transparent;
+  }
+}
 @import "index_styles_dmitriy.scss";
