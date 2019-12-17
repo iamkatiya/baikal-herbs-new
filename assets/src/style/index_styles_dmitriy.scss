@@ -34,3 +34,19 @@
         padding: 115px 290px 0 61px;
     }
 }
+
+.test1
+{
+  display: flex;
+  align-items: center;
+  li
+  {
+    list-style: none;
+    padding: 0 43px;
+  }
+}
+.active1
+{
+  font-size: 50px;
+  opacity: 1!important;
+}
