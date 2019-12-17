@@ -7,7 +7,7 @@
   z-index: 1;
   padding: 19px 138px;
 }
-.header-scroll
+.header-scroll1
 {
   background-color: #f9f9f9;
   position: fixed;
@@ -51,7 +51,7 @@
 .header-nav-menu-absolute
 {
   position: absolute;
-  top: 50px;
+  padding-top: 50px;
   opacity: 0;
   visibility: hidden;
   transition: .5s;

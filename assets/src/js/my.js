@@ -26,7 +26,7 @@ $(document).ready(function() {
         nav        : true,
         animateOut: 'fadeOut',
         dots       : true,
-        loop       : true,
+        loop       : false,
         margin     : 10,
         dotsContainer: '.test',
         navText: ['prev','next'],
@@ -44,8 +44,21 @@ $(document).ready(function() {
         owl.trigger('to.owl.carousel', [$(this).index(), 300]);
     });
 
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 10) {
+            $(".header-desktop").addClass('header-scroll');
+            $(".header-nav-menu-item .text-white-uppercase").addClass('black');
+            $(".header-nav-menu-item").addClass('black');
+            $(".header-nav-menu-absolute").addClass('header-nav-menu-absolute-scroll');
+        } else {
+            $(".header-desktop").removeClass('header-scroll');
+            $(".header-nav-menu-item .text-white-uppercase").removeClass('black');
+            $(".header-nav-menu-absolute").removeClass('header-nav-menu-absolute-scroll');
+        }
+    });
+
     $(document).ready(function(){
-        var owl1 = $(".owl-carousel").owlCarousel({
+        var owl1 = $(".owl-carouselDima").owlCarousel({
             loop: true,
             dots: true,
             nav: true,

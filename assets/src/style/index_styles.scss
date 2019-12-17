@@ -250,6 +250,18 @@
   top: -100px;
   right: 0;
 }
+.tech-background-lines
+{
+  position: absolute;
+  right: 0;
+  top: -600px
+}
+.stages-background-lines
+{
+  position: absolute;
+  top: -775px;
+  z-index: -1;
+}
 .director-photo
 {
   img
@@ -280,7 +292,7 @@
 {
   height: 672px;
 }
-.owl-carousel .owl-stage-outer
+.history-carousel.owl-carousel .owl-stage-outer
 {
   height: 900px;
   margin-left: 5%;
@@ -289,7 +301,12 @@
 {
   width: 113%;
 }
-.owl-carousel .owl-item img
+.owl-carouselDima.owl-carousel .owl-item img
+{
+  width: 100%;
+  margin-left: 0;
+}
+.history-carousel.owl-carousel .owl-item img
 {
   width: auto;
   margin-left: 5%;
@@ -337,6 +354,7 @@
 .technologies
 {
   margin-top: 163px;
+  position: relative;
 }
 .scientists-photo
 {
@@ -368,7 +386,7 @@
 }
 .contract-manufacturing
 {
-  margin-top: 195px;
+  margin: 195px 0;
 }
 .bookmarks
 {
@@ -391,4 +409,74 @@
   font-size: 50px;
   opacity: 1!important;
 }
+.header-nav-menu-absolute a.text-white-uppercase
+{
+  &:hover {
+    text-decoration: transparent;
+    border-bottom: 1px solid transparent;
+    color: #8cbc43;
+  }
+}
+.header-nav-menu a
+{
+  &:hover {
+    text-decoration: transparent;
+    border-bottom: 1px solid transparent;
+    .text-white-uppercase {
+      color: #8cbc43;
+    }
+  }
+}
+.margin-bottom-50
+{
+  margin-bottom: 33px;
+}
+.image-relative
+{
+  position: relative;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+.button-learn-more
+{
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #8cbc43;
+  transition: .5s;
+  &:hover
+  {
+    background: #658535;
+  }
+}
+.slider-little-arrow
+{
+  width: 10px!important;
+  margin: 0 21px!important;
+}
+.mainmarks {
+  position: absolute;
+  left: 240px;
+  top: 264px;
+  z-index: 10;
+}
+.logo-background
+{
+  position: absolute;
+  right: 0;
+  bottom: 230px;
+}
+.manuf-background-lines
+{
+  position: absolute;
+  left: 0;
+  top: 655px;
+  z-index: -1;
+}
+
 @import "index_styles_dmitriy.scss";
