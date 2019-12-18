@@ -8,6 +8,9 @@
   {
     left: 47px;
   }
+  .about-info-text {
+    padding:0 60px;
+  }
 }
 @media (max-width: 1400px) {
   .cowork-rubrik-item span {
@@ -17,6 +20,12 @@
 
   .burger-mobile {
     display: block;
+  }
+}
+
+@media (max-width: 1600px) {
+  .index-links {
+    position: relative;
   }
 }
 
@@ -49,6 +58,16 @@
     max-width: 100%;
     flex: 0 0 100%;
     padding-right: 0;
+  }
+  .about-info .col-5 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .director-photo img {
+    max-width: 670px;
+  }
+  .company-history {
+    margin-top:0;
   }
   .economy-item-title {
     font-size:40px;
@@ -144,6 +163,9 @@
 
   .banner-text-bold {
     font-size:100px;
+  }
+  .video-button-block {
+    display: none;
   }
 }
 @media (max-width: 400px){
