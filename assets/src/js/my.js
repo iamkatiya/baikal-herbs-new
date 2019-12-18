@@ -105,16 +105,16 @@ $(document).ready(function() {
             loop: true,
             dots: true,
             nav: true,
-            items: 1,
+            items: 2,
             speed: 16000,
             animateOut: true,
             animateIn: true,
             dotsContainer: '.teeest',
-            responsive: {
-                700: {
-                    items: 2
-                },
-            },
+            // responsive: {
+            //     700: {
+            //         items: 1
+            //     },
+            // },
         });
 
         $('.teamarks li').on('click', function(e) {

@@ -3,6 +3,18 @@
     &_tea {
         background-image: url("/../img/IMG.jpg");
     }
+
+    &_herbs {
+        background-image: url("/../img/herb-back.jpg");
+    }
+
+    &_extracts {
+        background-image: url("/../img/extract-back.jpg");
+    }
+
+    &_mushrooms {
+        background-image: url("/../img/mushrooms-back.jpg");
+    }
 }
 
 .main-banner {
@@ -52,4 +64,9 @@
 }
 .activeee {
     color: #000;
+}
+
+.technology.about.mushrooms {
+    margin-bottom: 180px;
+    overflow: visible; 
 }

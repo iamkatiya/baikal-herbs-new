@@ -2,6 +2,10 @@
     margin-bottom: 259px;
     margin-top: 95px;
     position: relative;
+
+    &_mushrooms {
+        margin-bottom: 100px;
+    }
 }
 
 .owl-carouselDima {
@@ -115,10 +119,10 @@
     width: 730px;
     height: 580px;
     opacity: .54;
-    position: fixed;
+    position: absolute;
     background-color: #f9f9f9;
     z-index: 10;
-    top: 203px;
-    right: 122px;
+    top: 107px;
+    right: -131px;
     overflow-x: hidden;
 }

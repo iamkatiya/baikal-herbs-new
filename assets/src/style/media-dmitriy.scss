@@ -38,3 +38,15 @@
     }
     
 }
+
+@media (max-width: 1264px) {
+    .opacity-wrap {
+        display: none;
+    }
+}
+
+@media (max-width: 875px) {
+    .teamarks {
+        display: none;
+    }
+}
