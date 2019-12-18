@@ -4,27 +4,26 @@
     position: relative;
 }
 
-.owl-carouselDima {
+.owl-carouselDima.owl-carousel {
     border-left: 5px solid#8CBC43;
     padding-top: 111px;
     background: #F9F9F9;
     margin-top: 48px;
 }
 
-.owl-carouselDima .owl-stage-outer {
+.owl-carouselDima.owl-carousel .owl-stage-outer {
     height: 650px;
 }
 
-.owl-carouselDima .owl-nav {
+.owl-carouselDima.owl-carousel .owl-nav {
     bottom: -45px;
 }
 
-.owl-carouselDima .item {
+.owl-carouselDima.owl-carousel .item {
     position: relative;
-    padding: 0 70px;
 }
 
-.owl-carouselDima .item {
+.owl-carouselDima.owl-carousel .item {
     &__title {
         font-family: 'MyriadPro-BoldCond';
         font-weight: 600;
@@ -32,12 +31,12 @@
         line-height: 120px;
         color: #F9F9F9;
         position: absolute;
-        bottom: 228px;
-        left: 64px;
+        bottom: 245px;
+        left: 37px;
         text-transform: uppercase;
 
         &_tech {
-            left: 69px;
+            left: 42px;
         }
     }
 
@@ -48,19 +47,20 @@
         font-size: 16px;
         line-height: 140%;
         color: #1F1F1F;
-        width: 100%;
+        width: 79%;
+        margin-left: 45px;
         margin-top: 41px;
     }
 }
 
 .teamarks {
     position: absolute;
-    left: 33px;
-    top: 48px;
+    left: 240px;
+    top: 264px;
     z-index: 10;
 }
 
-.teamark1 {
+.slider-noactive {
     font-family: 'MyriadPro-SemiExt';
     font-style: normal;
     font-weight: normal;
@@ -72,42 +72,14 @@
     opacity: 0.25;
 }
 
-.teamark2 {
-    font-family: 'MyriadPro-SemiExt';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: #1F1F1F;
-    opacity: 0.25;
-}
-
-.teamark3 {
-    font-family: 'MyriadPro-SemiExt';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: #1F1F1F;
-    opacity: 0.25;
-}
 
 .line-tea {
     position: absolute;
     z-index: -1;
     bottom: -920px;
     left: 580px;
-}
 
-.main
-{
-    min-height: 770px;
-}
-
-.slider-container {
-    position: relative;
+    .main {
+        min-height: 770px;
+    }
 }

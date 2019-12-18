@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6087834a-bf84-4448-af30-81eb56eb957a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/src/style/media-dmitriy.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/cowork-brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/cowork-brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/cowork-opt.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/cowork-opt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/js/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/style/communication_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/communication_styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/style/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/style/footer_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/footer_styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/style/header_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/header_styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/style/index_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/index_styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/style/index_styles_dmitriy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/index_styles_dmitriy.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/style/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/style/stages-of-production.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/stages-of-production.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/tea-drinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/tea-drinks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/template/communication-block.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/template/communication-block.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/src/template/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/template/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/technology-control.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/technology-control.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/technology-extracts.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/technology-extracts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/technology-lab.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/technology-lab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/technology-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/technology-product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/template/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

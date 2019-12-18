@@ -35,21 +35,18 @@
     }
 }
 
-.teeest
+.test1
 {
   display: flex;
   align-items: center;
-
   li
   {
     list-style: none;
-    padding: 0 69px;
-
-    &:first-child {
-        padding-left: 0;
-    }
+    padding: 0 43px;
   }
 }
-.activeee {
-    color: #000;
+.active1
+{
+  font-size: 50px;
+  opacity: 1!important;
 }
