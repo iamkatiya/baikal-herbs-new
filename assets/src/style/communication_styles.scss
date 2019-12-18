@@ -43,10 +43,7 @@
   background-position-y: bottom;
   background-position-x: right;
 }
-.contacts-form
-{
-  padding-left: 62px;
-}
+
 .form-info
 {
   width: 100%;
@@ -73,14 +70,37 @@
 .contacts-vkIcon
 {
   margin-right: 30px;
+  transition: .4s;
+  &:hover
+  {
+    opacity: .7;
+  }
 }
 .contacts-facebookIcon
 {
   margin-right: 30px;
+  transition: .4s;
+  &:hover
+  {
+    opacity: .7;
+  }
+}
+.contacts-instaIcon
+{
+  transition: .4s;
+  &:hover
+  {
+    opacity: .7;
+  }
 }
 .contacts-okIcon
 {
   margin-right: 30px;
+  transition: .4s;
+  &:hover
+  {
+    opacity: .7;
+  }
 }
 #cb1
 {

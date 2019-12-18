@@ -29,6 +29,10 @@
   }
 }
 @media (max-width: 1100px) {
+  .about-background-lines, .tech-background-lines, .stages-background-lines, .logo-background, .manuf-background-lines
+  {
+    display: none;
+  }
   .cowork-rubrik-item {
     height:200px;
   }
@@ -40,6 +44,164 @@
   }
   .video-button-block {
     margin-right:0;
+  }
+}
+@media (min-width: 992px) {
+  .footer-container-mobile
+  {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+
+  .owl-carouselDima .owl-stage-outer {
+    height: 500px;
+  }
+
+    .map
+  {
+    top: 190px;
+  }
+  .footerContainer
+  {
+    padding: 0;
+  }
+  .first, .second
+  {
+    display: none;
+  }
+  .about-info {
+    flex-wrap: wrap;
+  }
+
+  .myContainer {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .col-5, .col-4 {
+    max-width: 100%;
+    flex: 100%;
+  }
+  .col-7, .col-8
+  {
+    max-width: 100%;
+    flex: 100%;
+  }
+  .about-info-text
+  {
+    padding: 50px 0 0 0;
+  }
+  .label-for-photo
+  {
+    display: none;
+  }
+  .director-photo img {
+    height: 100%;
+  }
+  .about-background-block
+  {
+    display: none;
+  }
+  .history-carousel.owl-carousel .owl-item img
+  {
+    width: 250px;
+    margin-left: 0;
+  }
+  .history-image
+  {
+    left: 0;
+    margin-top: 110%;
+  }
+  .slider-text
+  {
+    top: 80px;
+  }
+  .bookmarks
+  {
+    display: none;
+  }
+  .technologies
+  {
+    margin-top: 0;
+  }
+  .technologies-photo
+  {
+    width: 100%;
+  }
+  .tech-info-text
+  {
+    padding: 30px 20px 0;
+  }
+  .tech-block
+  {
+    bottom: -65px;
+  }
+  .little-links
+  {
+    left: 20px;
+  }
+  .tech-background-block
+  {
+    display: none;
+  }
+  .margin-bottom-50
+  {
+    display: none;
+  }
+  .communication-block
+  {
+    flex-wrap: wrap;
+  }
+  .feedback-block
+  {
+    flex: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .contacts-form-cooperate-button
+  {
+    left: -107px;
+  }
+  .row-flex
+  {
+    flex-wrap: wrap;
+  }
+  .contacts-form-address
+  {
+    padding-right: 0;
+  }
+  .contacts-block
+  {
+    flex: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .contacts-form
+  {
+    padding-left: 0;
+  }
+  .contacts-block-comment
+  {
+    padding-left: 0;
+  }
+  .contacts-block-comment textarea
+  {
+    background-size: 100%;
+    line-height: 3.4;
+  }
+  .footerContainer
+  {
+    flex-wrap: wrap;
+  }
+  .headers-for-blocks
+  {
+    flex: 100%;
+  }
+  .btn-top
+  {
+    bottom: 67px;
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -122,9 +284,21 @@
   .economy-item-title {
     font-size: 30px;
   }
+  .banner-text-bold {
+    font-size: 30px;
+  }
+  .main-description p
+  {
+    font-size: 14px;
+  }
 }
 @media (max-width: 560px)
 {
+
+  .head-blocks {
+    font-size: 27px;
+  }
+
   .banner-text-description {
     flex-wrap: wrap;
     display: flex;
@@ -142,12 +316,15 @@
     margin-top:30px;
   }
 
-  .banner-text-bold {
-    font-size:100px;
-  }
 }
 @media (max-width: 400px){
   .banner-text-white {
     font-size: 36px;
   }
+  .about
+  {
+    margin-top: 35px;
+  }
 }
+
+@import "media-dmitriy";

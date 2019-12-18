@@ -8,18 +8,24 @@
 .index-banner {
   position: relative;
 }
-
-.main-banner {
-  margin-top: 75px;
+.main-page
+{
+  padding-top: 290px!important;
 }
-
+.main-description
+{
+  margin-top: -50px;
+}
 .index-banner_buttons-textblock {
   margin-top: 50px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-
+.main-banner-buttons
+{
+  margin-top: 100px;
+}
 .banner-text-description {
   flex-wrap: wrap;
   display: flex;
@@ -196,6 +202,7 @@
 
 .headers-for-blocks {
   display: flex;
+  flex-wrap: nowrap;
 }
 
 .myContainer {
@@ -364,7 +371,7 @@
 .tech-background-block {
   position: absolute;
   width: 122%;
-  height: 392px;
+  height: 408px;
   left: -20%;
   top: 96px;
   background: #f9f9f9;
@@ -377,7 +384,7 @@
 }
 
 .tech-block {
-  bottom: 105px;
+  bottom: 88px;
 }
 
 .contract-manufacturing {
@@ -423,8 +430,7 @@
 
 .header-nav-menu a {
   &:hover {
-    text-decoration: transparent;
-    border-bottom: 1px solid transparent;
+
 
     .text-white-uppercase {
       color: #8cbc43;
@@ -433,7 +439,8 @@
 }
 
 .margin-bottom-50 {
-  margin-bottom: 33px;
+  margin-bottom: 117px;
+  margin-left: 35px;
 }
 
 .image-relative {
@@ -483,5 +490,45 @@
   top: 655px;
   z-index: -1;
 }
-
+.ellipce-outer {
+  position: absolute;
+  top: -45px;
+  left: -45px;
+}
+.ellipce-inner {
+  position: absolute;
+  top: -26px;
+  left: -25px;
+}
+.video-button-block:hover {
+  filter: grayscale(30%);
+  cursor:pointer;
+  .ellipce-inner {
+    animation: rotate_inner 8s infinite;
+  }
+  .ellipce-outer {
+    animation: rotate_outer 8s infinite;
+  }
+}
+@keyframes rotate_outer {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+} @keyframes rotate_inner {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(-360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
 @import "index_styles_dmitriy.scss";

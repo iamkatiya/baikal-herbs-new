@@ -12,11 +12,26 @@ $(document).ready(function() {
             $('.header-nav-lang-current a').css('color', '#ffffff');
             $('.header-nav-lang-current i').css('border-color', '#ffffff');
         }
+        if ($(".burger-line1").hasClass('line1-click'))
+        {
+            $('.burger-line1').removeClass('line1-click');
+        }
+        if ($(".burger-line2").hasClass('line2-click'))
+        {
+            $('.burger-line2').removeClass('line2-click');
+        }
+        if ($(".burger-line3").hasClass('line3-click'))
+        {
+            $('.burger-line3').removeClass('line3-click');
+        }
         else {
             $(this).addClass('open');
             $(this).next().fadeIn();
             $('.header-nav-lang-current a').css('color', '#3D3D3D');
             $('.header-nav-lang-current i').css('border-color', '#3D3D3D');
+            $('.burger-line1').addClass('line1-click');
+            $('.burger-line2').addClass('line2-click');
+            $('.burger-line3').addClass('line3-click');
 
         }
     });
@@ -90,9 +105,15 @@ $(document).ready(function() {
             loop: true,
             dots: true,
             nav: true,
-            items: 2,
+            items: 1,
             speed: 16000,
             animateOut: 'fadeOut',
+            dotsContainer: '.teeest',
+            responsive: {
+                700: {
+                    items: 2
+                },
+            },
         });
 
         $('.teamarks li').on('click', function(e) {

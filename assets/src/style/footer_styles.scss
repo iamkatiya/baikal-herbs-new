@@ -62,3 +62,12 @@
 .btn-top:hover {
   background: #76a035 url(../img/slider-left.svg) center center no-repeat!important;
 }
+.footer-container-mobile
+{
+  display: flex;
+  flex: 100%;
+  padding: 0 20px 70px;
+  background: #1F1F1F;
+  justify-content: center;
+  align-items: center;
+}
