@@ -284,13 +284,6 @@
   .economy-item-title {
     font-size: 30px;
   }
-  .banner-text-bold {
-    font-size: 30px;
-  }
-  .main-description p
-  {
-    font-size: 14px;
-  }
 }
 @media (max-width: 560px)
 {
@@ -316,6 +309,9 @@
     margin-top:30px;
   }
 
+  .banner-text-bold {
+    font-size:100px;
+  }
 }
 @media (max-width: 400px){
   .banner-text-white {
