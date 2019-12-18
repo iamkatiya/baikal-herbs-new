@@ -58,6 +58,10 @@
     left: 33px;
     top: 48px;
     z-index: 10;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .teamark1 {
@@ -105,4 +109,16 @@
 
 .slider-container {
     position: relative;
+}
+
+.opacity-wrap {
+    width: 730px;
+    height: 580px;
+    opacity: .54;
+    position: fixed;
+    background-color: #f9f9f9;
+    z-index: 10;
+    top: 203px;
+    right: 122px;
+    overflow-x: hidden;
 }

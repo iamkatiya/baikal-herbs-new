@@ -107,7 +107,8 @@ $(document).ready(function() {
             nav: true,
             items: 1,
             speed: 16000,
-            animateOut: 'fadeOut',
+            animateOut: true,
+            animateIn: true,
             dotsContainer: '.teeest',
             responsive: {
                 700: {

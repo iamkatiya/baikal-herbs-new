@@ -4,14 +4,24 @@
     }
 }
 
+@media (max-width: 1552px) {
+    // .teamarks {
+    //     display: none;
+    // }
+
+    .owl-carouselDima .item__title {
+        display: none;
+    }
+}
+
 @media (max-width: 1540px) {
     .about-info {
         flex-wrap: wrap;
     }
 
     .myContainer {
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     .col-5, .col-4 {
         max-width: 100%;
