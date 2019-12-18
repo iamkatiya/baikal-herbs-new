@@ -46,7 +46,26 @@
     margin-right:0;
   }
 }
+@media (min-width: 992px) {
+  .footer-container-mobile
+  {
+    display: none;
+  }
+}
 @media (max-width: 991px) {
+
+  .map
+  {
+    top: 190px;
+  }
+  .footerContainer
+  {
+    padding: 0;
+  }
+  .first, .second
+  {
+    display: none;
+  }
   .about-info {
     flex-wrap: wrap;
   }
@@ -264,6 +283,11 @@
 }
 @media (max-width: 560px)
 {
+
+  .head-blocks {
+    font-size: 27px;
+  }
+
   .banner-text-description {
     flex-wrap: wrap;
     display: flex;
@@ -288,6 +312,10 @@
 @media (max-width: 400px){
   .banner-text-white {
     font-size: 36px;
+  }
+  .about
+  {
+    margin-top: 35px;
   }
 }
 
