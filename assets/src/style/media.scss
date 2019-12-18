@@ -54,6 +54,25 @@
 }
 @media (max-width: 991px) {
 
+  .stages-of-production
+  {
+    margin-bottom: 0;
+  }
+  .contract-manufacturing {
+    margin: 90px 0;
+  }
+  .main-header
+  {
+    font-size: 60px!important;
+  }
+  .main-description p
+  {
+    font-size: 20px;
+  }
+  .main-description
+  {
+    margin-top: 0;
+  }
   .owl-carouselDima .owl-stage-outer {
     height: 500px;
   }
@@ -130,7 +149,7 @@
   }
   .tech-info-text
   {
-    padding: 30px 20px 0;
+    padding: 30px 10px 0;
   }
   .tech-block
   {
@@ -227,7 +246,7 @@
     font-size: 50px;
   }
   .head-blocks-thin {
-    font-size: 30px;
+    font-size: 20px;
   }
   .cowork-rubrik-item {
     height:200px;
@@ -284,10 +303,29 @@
   .economy-item-title {
     font-size: 30px;
   }
+  .owl-carouselDima .item {
+    position: relative;
+    padding: 0 50px;
+  }
 }
 @media (max-width: 560px)
 {
 
+  .main-header
+  {
+    font-size: 50px!important;
+  }
+  .main-description p
+  {
+    font-size: 20px;
+  }
+  .main-description
+  {
+    margin-top: 0;
+  }
+  .main-page {
+    padding-top: 180px!important;
+  }
   .head-blocks {
     font-size: 27px;
   }
