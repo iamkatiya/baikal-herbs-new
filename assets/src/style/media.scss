@@ -2,51 +2,73 @@
 
   .little-links
   {
-    left: 47px;
+
   }
 }
-@media (max-width: 1570px) {
+@media (max-width: 1670px)
+{
+  .index-links
+  {
+    bottom: 40px!important;
+  }
+}
+@media (max-width: 1624px) {
 
-
+  .feedback-block {
+    padding-left: 80px;
+    padding-right: 83px;
+  }
+}
+@media (max-width: 1620px) {
+  .tech-info-text {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 1550px)
+{
+  .index-links
+  {
+    bottom: 0!important;
+  }
+}@media (max-width: 1500px) {
+  .technologies-photo
+  {
+    margin-top: 70px;
+  }
 }
 @media (max-width: 1450px)
 {
   .head-blocks {
     font-size: 81px;
   }
-}
-@media (max-width: 1400px) {
-  .cowork-rubrik-item span {
-    font-size: 60px;
-    bottom:-5px;
+  .label-for-photo
+  {
+    left: 0;
   }
 
-  .burger-mobile {
-    display: block;
-  }
-  .herbs-logo
-  {
-    filter: contrast(0.4);
-  }
-  .header-language-block
-  {
-    display: none;
-  }
-  .header-desktop
-  {
-    top:0;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background: white;
-  }
+}
+@media (max-width: 1400px) {
+
 }
 @media (max-width: 1350px) {
   .history-carousel.owl-carousel .owl-item img {
     width: 50%;
   }
+  .technologies-photo
+  {
+    margin-top: 100px;
+  }
+  .tech-info-text
+  {
+    padding-right: 20px;
+  }
 }
 
 @media (max-width: 1280px) {
+  .tech-block
+  {
+    bottom: -65px!important;
+  }
   .communication-block
   {
     flex-wrap: wrap;
@@ -90,6 +112,29 @@
 }
 @media (max-width: 1100px) {
 
+  .cowork-rubrik-item span {
+    font-size: 60px;
+    bottom:-5px;
+  }
+
+  .burger-mobile {
+    display: block;
+  }
+  .herbs-logo
+  {
+    filter: contrast(0.4);
+  }
+  .header-language-block
+  {
+    display: none;
+  }
+  .header-desktop
+  {
+    top:0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: white;
+  }
   .about-background-lines, .tech-background-lines, .stages-background-lines, .logo-background, .manuf-background-lines
   {
     display: none;
@@ -205,13 +250,10 @@
   {
     padding: 30px 10px 0;
   }
-  .tech-block
-  {
-    bottom: -65px;
-  }
+
   .little-links
   {
-    left: 20px;
+    left: 10px;
   }
   .tech-background-block
   {
