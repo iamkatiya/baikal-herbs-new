@@ -107,15 +107,16 @@ $(document).ready(function() {
             nav: true,
             items: 1,
             speed: 16000,
-            animateOut: true,
-            animateIn: true,
+            animateOut: 'fadeOut',
             dotsContainer: '.teeest',
+            margin: 10,
             responsive: {
                 0: {
                     items: 1,
                 },
-                1080: {
+                1081: {
                     items: 2,
+                    animateOut: 'fadeOut',
                 }
             },
         });
