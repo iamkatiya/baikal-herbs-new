@@ -24,6 +24,21 @@
   .burger-mobile {
     display: block;
   }
+  .herbs-logo
+  {
+    filter: contrast(0.4);
+  }
+  .header-language-block
+  {
+    display: none;
+  }
+  .header-desktop
+  {
+    top:0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: white;
+  }
 }
 @media (max-width: 1350px) {
   .history-carousel.owl-carousel .owl-item img {
