@@ -37,8 +37,20 @@
     }
 }
 
+@media (max-width: 991px) {
+    .owl-carouselDima-auto-height .owl-stage-outer {
+        height: auto;
+    }
+
+    
+}
+
 @media (max-width: 875px) {
     .teamarks {
         display: none;
+    }
+
+    .owl-carouselDima {
+        padding-top: 61px;
     }
 }

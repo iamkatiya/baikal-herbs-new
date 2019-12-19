@@ -111,10 +111,13 @@ $(document).ready(function() {
             animateIn: true,
             dotsContainer: '.teeest',
             responsive: {
-            700: {
-            items: 2
-             },
-          },
+                0: {
+                    items: 1,
+                },
+                1080: {
+                    items: 2,
+                }
+            },
         });
 
         $('.teamarks li').on('click', function(e) {
