@@ -4,13 +4,15 @@
     }
 }
 
-@media (max-width: 1552px) {
-    // .teamarks {
-    //     display: none;
-    // }
-
+@media (max-width: 1560px) {
     .owl-carouselDima .item__title {
-        display: none;
+        bottom: 232px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .owl-carouselDima .item__title {
+        bottom: 235px;
     }
 }
 
@@ -48,9 +50,29 @@
     }
 }
 
+@media (max-width: 1090px) {
+    // .teamarks {
+    //     display: none;
+    // }
+
+    .owl-carouselDima .item__title {
+        display: none;
+    }
+}
+
 @media (max-width: 1080px) {
     .owl-carouselDima .item {
         padding: 0 226px 0 81px;
+    }
+}
+
+@media (max-width: 1021px) {
+    .banner-text-bold_tea_lh {
+        line-height: 125px;
+    }
+
+    .banner-text-description_tea_top {
+        top: -36px;
     }
 }
 
@@ -61,6 +83,10 @@
 
     .owl-carouselDima .item {
         padding: 0 200px 0 61px;
+    }
+
+    .stages-of-production_mb {
+        margin-bottom: 259px;
     }
 }
 
