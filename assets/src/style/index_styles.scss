@@ -4,6 +4,10 @@
   background-image: url("/../img/index-banner.jpg");
   min-height: 770px;
 }
+.headers-for-blocks
+{
+  flex-wrap: wrap;
+}
 
 .index-banner {
   position: relative;
@@ -202,9 +206,12 @@
 
 .headers-for-blocks {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
-
+.contacts-form
+{
+  width: 100%;
+}
 .myContainer {
   max-width: 1540px;
   margin-left: auto;
@@ -536,8 +543,5 @@
       transform: rotate(0deg);
     }
   }
-  .headers-for-blocks
-  {
-    flex-wrap: wrap;
-  }
+
 @import "index_styles_dmitriy.scss";
