@@ -4,9 +4,13 @@
   background-image: url("/../img/index-banner.jpg");
   min-height: 770px;
 }
-.headers-for-blocks
+.headers-for-blocks_new
 {
   flex-wrap: wrap;
+}
+.headers-for-blocks
+{
+  display: flex;
 }
 
 .index-banner {
@@ -204,10 +208,6 @@
   }
 }
 
-.headers-for-blocks {
-  display: flex;
-  flex-wrap: wrap;
-}
 .contacts-form
 {
   width: 100%;
@@ -512,8 +512,12 @@
   top: -26px;
   left: -25px;
 }
+.video-button-block
+{
+  filter: brightness(0) invert(1);
+}
 .video-button-block:hover {
-  filter: grayscale(30%);
+  filter: inherit;
   cursor:pointer;
   .ellipce-inner {
     animation: rotate_inner 8s infinite;
