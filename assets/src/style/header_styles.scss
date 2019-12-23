@@ -126,7 +126,9 @@
   width: 10px;
   transition: .5s;
   background-repeat: no-repeat;
-  background-position: right 5px;
+  background-position-x: right;
+  background-position-y: center;
+  margin-top: -5px;
 }
 
 .burger-line1
@@ -301,5 +303,12 @@
     &:first-child {
       padding-top:18px;
     }
+  }
+}
+.header-desktop a
+{
+  &:hover
+  {
+    border: transparent;
   }
 }

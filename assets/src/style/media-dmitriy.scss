@@ -22,8 +22,10 @@
     }
 
     .myContainer {
-        margin-right: 10px;
-        margin-left: 10px;
+        max-width: 1400px;
+    }
+    .container {
+        max-width: 1400px;
     }
 
     .about-info-text_tea {
@@ -31,7 +33,15 @@
     }
     
 }
+@media (max-width: 1400px) {
+    .myContainer {
+        max-width: 1300px;
+    }
+    .container {
+        max-width: 1300px;
+    }
 
+}
 @media (max-width: 1378px) {
     .about-info-text_tea {
         padding: 107px 185px 0 50px;
@@ -83,6 +93,10 @@
 
     .owl-carouselDima .item {
         padding: 0 200px 0 61px;
+    }
+    .myContainer {
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .stages-of-production_mb {

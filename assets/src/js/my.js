@@ -11,19 +11,20 @@ $(document).ready(function() {
             $(this).next().fadeOut();
             $('.header-nav-lang-current a').css('color', '#ffffff');
             $('.header-nav-lang-current i').css('border-color', '#ffffff');
+            if ($(".burger-line1").hasClass('line1-click'))
+            {
+                $('.burger-line1').removeClass('line1-click');
+            }
+            if ($(".burger-line2").hasClass('line2-click'))
+            {
+                $('.burger-line2').removeClass('line2-click');
+            }
+            if ($(".burger-line3").hasClass('line3-click'))
+            {
+                $('.burger-line3').removeClass('line3-click');
+            }
         }
-        if ($(".burger-line1").hasClass('line1-click'))
-        {
-            $('.burger-line1').removeClass('line1-click');
-        }
-        if ($(".burger-line2").hasClass('line2-click'))
-        {
-            $('.burger-line2').removeClass('line2-click');
-        }
-        if ($(".burger-line3").hasClass('line3-click'))
-        {
-            $('.burger-line3').removeClass('line3-click');
-        }
+
         else {
             $(this).addClass('open');
             $(this).next().fadeIn();
@@ -67,6 +68,7 @@ $(document).ready(function() {
         items 	 : 1,
         center	   : true,
         nav        : true,
+        navSpeed: 140000,
         animateOut: 'fadeOut',
         dots       : true,
         loop       : false,
@@ -106,7 +108,7 @@ $(document).ready(function() {
             dots: true,
             nav: true,
             items: 1,
-            speed: 16000,
+            navSpeed: 2000,
             animateOut: 'fadeOut',
             dotsContainer: '.teeest',
             margin: 10,
