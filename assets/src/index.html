@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="index-banner_buttons-textblock main-banner-buttons">
-        <div class="index-banner-cooperate-button">
+        <div class="index-banner-cooperate-button" data-toggle="modal" data-target="#exampleModalCenter">
             <div class="text-white-uppercase">Сотрудничать с нами</div>
             <img class="index-cooperate-arrow" src="img/index-banner-arrow.svg">
         </div>
@@ -252,8 +252,17 @@
                 от своего употреблений
             </div>
         </div>
+        <div class="teamarks teamarks-main">
+            <ul class="teeest">
+                <li class="teamark1 activeee" data="0">Экстракты</li>
+                <li class="teamark2" data="1">Грибы</li>
+                <li class="teamark3" data="2">Травы</li>
+                <li class="teamark4" data="3">Чаи</li>
+            </ul>
+        </div>
+        <div class="opacity-wrap opacity-main"></div>
         <div class="owl-carousel owl-carouselDima">
-            <div class="item" id="mainmark1">
+            <div class="item" id="teamark1">
                 <div class="image-relative item__img"><img src="img/extracts.jpg" alt="manufacturing">
                     <button class="button-learn-more">
                         <div class="text-white-uppercase big-letter-spacing">Подробнее</div>
@@ -266,7 +275,7 @@
                     продукта берется его идентичность живому растению. Это позволяет экстракту работать именно так, как
                     наш организм воздействует живое растение, но при этом имеет более удобную форму применения.</p>
             </div>
-            <div class="item" id="mainmark2">
+            <div class="item" id="teamark2">
                 <div class="image-relative item__img">
                     <img src="img/griby.jpg" alt="tech">
                     <button class="button-learn-more">
@@ -277,7 +286,7 @@
                 <div class="item__title item__title_tech margin-bottom-50">Грибы</div>
                 <p class="item__desc">Используя многочисленные исследования японских учёных и положительные отзывы потребителей, компания компания BaikalHerbs запустила инновационное производство продукции из грибов, таких как чага (берёзовый гриб), шиитаке (лентенула съедобная), рейши, агарикус и многих других. </p>
             </div>
-            <div class="item" id="mainmark3">
+            <div class="item" id="teamark3">
                 <div class="image-relative item__img">
                     <img src="img/travy.jpg" alt="quality">
                     <button class="button-learn-more">
@@ -290,7 +299,7 @@
                     Байкальске, где его бережно перебирают и фасуют, без дополнительных обработок, чтобы максимально
                     сохранить все микроэлементы.</p>
             </div>
-            <div class="item" id="mainmark4">
+            <div class="item" id="teamark4">
                 <div class="image-relative item__img">
                     <img src="img/tea.jpg" alt="quality">
                     <button class="button-learn-more">
@@ -303,19 +312,6 @@
                     ароматными травами в качестве дополнения, а также изготовили по традиционным рецептам линейку
                     растворимых чаёв.</p>
             </div>
-        </div>
-        <div class="mainmarks">
-            <ul class="test">
-                <li class="mainmark1 active" data="0">
-                    <div class="slider-noactive">Производство</div>
-                </li>
-                <li class="mainmark2" data="2">
-                    <div class="slider-noactive">Изготовление</div>
-                </li>
-                <li class="mainmark3" data="3">
-                    <div class="slider-noactive">Качество</div>
-                </li>
-            </ul>
         </div>
     </div>
 </section>
@@ -356,6 +352,50 @@
         </div>
     </div>
 </section>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="feedback-block feedback-block-modal">
+                    <div class="headers-for-blocks headers-for-blocks_new">
+                        <h2 class="head-blocks">Работа</h2>
+                        <h2 class="head-blocks green ml-3">с нами</h2></div>
+                    <div class="row-flex">
+                        <div class="contacts-form-address">
+                            <div class="contacts-head black mt-19">Ваше имя*</div>
+                            <input class="form-info" type="text" placeholder="Василий Петров" required>
+                            <div class="contacts-address">
+                                <div class="contacts-head black mt-19">Название вашей компании</div>
+                                <input class="form-info" type="text" placeholder='ООО «Компания»'>
+                            </div>
+                            <div class="contacts-address">
+                                <div class="contacts-head black mt-19">Ваш номер телефона*</div>
+                                <input class="form-info" type="text" name ="phone" placeholder='+7 (XXX) XXX-XX-XX' required>
+                            </div>
+                            <div class="contacts-address">
+                                <div class="contacts-head black mt-19">Ваша электронная почта</div>
+                                <input class="form-info" type="text" placeholder='example@gmail.com'>
+                            </div>
+                        </div>
+                        <div class="contacts-block-comment">
+                            <div class="contacts-head black mt-19">Комментарий</div>
+                            <textarea rows="7" name="text" placeholder="Ваш комментарий"></textarea>
+                        </div>
+                    </div>
+                    <div class="policy-check">
+                        <input type="checkbox" id="cb1"> <label for="cb1"><div class="service-text">Я ознакомлен(-а) с <a class="privacy-policy" href="privacy-policy.html" target="_blank">политикой конфиденциальности</a></div></label>
+                    </div>
+                    <div class="contacts-block-send-button">
+                        <button class="contacts-form-cooperate-button">
+                            <div class="text-white-uppercase">Отправить</div>
+                            <img class="index-cooperate-arrow" src="img/index-banner-arrow.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 //= template/communication-block.html
 //= template/footer.html
 </body>

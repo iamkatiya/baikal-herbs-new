@@ -68,13 +68,13 @@ $(document).ready(function() {
         items 	 : 1,
         center	   : true,
         nav        : true,
-        navSpeed: 140000,
-        animateOut: 'fadeOut',
+        navSpeed: 1400,
         dots       : true,
+        dotsSpeed: 1400,
         loop       : false,
         margin     : 10,
         dotsContainer: '.test',
-        navText: ['prev','next'],
+        navText: ['',''],
     });
 
     $('.owl-next').on('click',function(){
@@ -105,7 +105,7 @@ $(document).ready(function() {
     $(document).ready(function(){
         var owl1 = $(".owl-carouselDima").owlCarousel({
             loop: true,
-            dots: true,
+            dots: false,
             nav: true,
             items: 1,
             navSpeed: 2000,
@@ -126,6 +126,10 @@ $(document).ready(function() {
         $('.teamarks li').on('click', function(e) {
             owl1.trigger('to.owl.carousel', [$(this).index(), 300]);
             
+        });
+        $('.mainmarks li').on('click', function(e) {
+            owl1.trigger('to.owl.carousel', [$(this).index(), 300]);
+
         });
     });
 });
