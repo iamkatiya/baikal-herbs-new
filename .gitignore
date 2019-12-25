@@ -3,3 +3,4 @@ node_modules/
 assets/build/
 package-lock.json
 .idea/baikal-herbs.iml
+*.mp4

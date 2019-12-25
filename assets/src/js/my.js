@@ -85,6 +85,7 @@ $(document).ready(function() {
         action = 'prev'
     });
 
+
     $('.bookmarks li').on('click', function(e) {
         owl.trigger('to.owl.carousel', [$(this).index(), 300]);
     });
@@ -131,6 +132,7 @@ $(document).ready(function() {
             owl1.trigger('to.owl.carousel', [$(this).index(), 300]);
 
         });
+
     });
 });
 

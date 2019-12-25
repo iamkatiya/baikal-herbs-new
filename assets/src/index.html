@@ -15,7 +15,7 @@
                         <p class="banner-text-green">25 лет производим</p>
                         <p class="banner-text-white ml-2">фитопродукцию</p></div>
                 </div>
-                <div class="video-button-block">
+                <div class="video-button-block" data-toggle="modal" data-target="#exampleModalCenter1">
                     <div class="ellipce-outer"><img src="img/arc-outer.svg"></div>
                     <div class="ellipce-inner"><img src="img/arc-inner.svg"></div>
                     <img src="img/video-button-default.svg">
@@ -33,6 +33,7 @@
             товаров</a>
     </div>
 </section>
+
 <section class="about">
     <div class="about-background-lines"><img src="img/background-lines.svg"></div>
     <div class="myContainer">
@@ -356,10 +357,14 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body">
+                <img class="popup-logo" src="img/popup-logo.svg">
+                <img src="img/popup-close.svg" class="popup-close close" data-dismiss="modal" aria-label="Close">
                 <div class="feedback-block feedback-block-modal">
                     <div class="headers-for-blocks headers-for-blocks_new">
                         <h2 class="head-blocks">Работа</h2>
-                        <h2 class="head-blocks green ml-3">с нами</h2></div>
+                        <h2 class="head-blocks green ml-3">с нами</h2>
+                        <div class="usu-text">Сделайте первый шаг на пути к сотрудничеству заполнив простую форму!</div>
+                    </div>
                     <div class="row-flex">
                         <div class="contacts-form-address">
                             <div class="contacts-head black mt-19">Ваше имя*</div>
@@ -377,7 +382,7 @@
                                 <input class="form-info" type="text" placeholder='example@gmail.com'>
                             </div>
                         </div>
-                        <div class="contacts-block-comment">
+                        <div class="contacts-block-comment popup">
                             <div class="contacts-head black mt-19">Комментарий</div>
                             <textarea rows="7" name="text" placeholder="Ваш комментарий"></textarea>
                         </div>
@@ -385,17 +390,30 @@
                     <div class="policy-check">
                         <input type="checkbox" id="cb1"> <label for="cb1"><div class="service-text">Я ознакомлен(-а) с <a class="privacy-policy" href="privacy-policy.html" target="_blank">политикой конфиденциальности</a></div></label>
                     </div>
-                    <div class="contacts-block-send-button">
-                        <button class="contacts-form-cooperate-button">
-                            <div class="text-white-uppercase">Отправить</div>
-                            <img class="index-cooperate-arrow" src="img/index-banner-arrow.svg">
-                        </button>
-                    </div>
+                    <button class="popup-send-button">
+                        <div class="text-white-uppercase">Отправить</div>
+                        <img class="index-cooperate-arrow" src="img/index-banner-arrow.svg">
+                    </button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <video controls>
+                    <source src="video/index.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 //= template/communication-block.html
 //= template/footer.html
 </body>

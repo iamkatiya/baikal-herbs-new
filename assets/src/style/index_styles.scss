@@ -1,6 +1,6 @@
 .index-banner {
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   background-image: url("/../img/index-banner.jpg");
   min-height: 770px;
 }
@@ -560,5 +560,47 @@
 .feedback-block-modal
 {
   padding: 50px 100px!important;
+  background-color: white;
+}
+.popup-send-button
+{
+  position: absolute;
+  padding: 15px 30px;
+  background: #8CBC43;
+  bottom: -23px;
+  right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup textarea
+{
+  width: 90%!important;
+}
+.modal-content
+{
+  border-top: 4px solid #8CBC43;
+  border-radius: 0;
+}
+.popup-logo
+{
+  position: absolute;
+  right: 135px;
+  top: 53px;
+}
+.popup-close
+{
+  position: absolute;
+  right: 25px;
+  top: 23px;
+  transition: .3s;
+  &:hover
+  {
+    cursor: pointer;
+  }
+}
+.modal-content video
+{
+  width: 100%;
 }
 @import "index_styles_dmitriy.scss";

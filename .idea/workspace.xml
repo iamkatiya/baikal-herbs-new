@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lineishchik" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../insideRally-master" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -100,7 +100,8 @@
       <workItem from="1576819647855" duration="3697000" />
       <workItem from="1577073977927" duration="2196000" />
       <workItem from="1577091080977" duration="9112000" />
-      <workItem from="1577151635049" duration="13887000" />
+      <workItem from="1577151635049" duration="14169000" />
+      <workItem from="1577241935624" duration="7381000" />
     </task>
     <servers />
   </component>
@@ -135,17 +136,17 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1577074975470">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1577247319840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577074975470" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577247319840" />
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1576819648439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576819648439" />
-    <state x="657" y="257" width="606" height="526" key="find.popup" timestamp="1577097752150">
+    <state x="657" y="257" width="606" height="526" key="find.popup" timestamp="1577248126497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="257" width="606" height="526" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577097752150" />
+    <state x="657" y="257" width="606" height="526" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577248126497" />
   </component>
 </project>
