@@ -34,7 +34,7 @@
 .copyright_footer
 {
   position: inherit;
-  padding-top: 100px;
+  padding-top: 88px;
 }
 .footer-block-map
 {
@@ -76,5 +76,15 @@
   a:hover
   {
     border-bottom: 1px solid transparent;
+  }
+}
+.footer-padding
+{
+  &:hover
+  {
+    a
+    {
+      border-bottom: 1px solid #8cbc43;
+    }
   }
 }

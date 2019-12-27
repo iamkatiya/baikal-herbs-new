@@ -41,8 +41,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../insideRally-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../клиника" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -102,6 +107,10 @@
       <workItem from="1577091080977" duration="9112000" />
       <workItem from="1577151635049" duration="14169000" />
       <workItem from="1577241935624" duration="7381000" />
+      <workItem from="1577261734832" duration="6711000" />
+      <workItem from="1577326696266" duration="10581000" />
+      <workItem from="1577344087241" duration="8432000" />
+      <workItem from="1577412224788" duration="21747000" />
     </task>
     <servers />
   </component>
@@ -136,17 +145,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1577247319840">
+    <state x="552" y="177" key="#Deployment" timestamp="1577262481899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577247319840" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1576819648439">
+    <state x="552" y="177" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1577262481899" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1577419023188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576819648439" />
-    <state x="657" y="257" width="606" height="526" key="find.popup" timestamp="1577248126497">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577419023188" />
+    <state x="822" y="418" key="WebDeployment.AddServerDialog.v.1" timestamp="1577262506020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="257" width="606" height="526" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577248126497" />
+    <state x="822" y="418" key="WebDeployment.AddServerDialog.v.1/0.0.1920.1040@0.0.1920.1040" timestamp="1577262506020" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577412226582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577412226582" />
+    <state x="657" y="257" width="606" height="526" key="find.popup" timestamp="1577425375793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="257" width="606" height="526" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577425375793" />
   </component>
 </project>

@@ -82,9 +82,12 @@
 
 @media (max-width: 1280px) {
 
+  .video-button-text
+  {
+    display: none;
+  }
   .video-button-block {
     margin:50px 20px 0;
-    display: table;
   }
   .media-padding
   {
@@ -182,7 +185,27 @@
     margin-right:0;
   }
 }
+@media (max-width: 1024px)
+{
+  .header-nav-menu li a
+  {
+    font-size: 25px;
+  }
+  .burger-mobile .header-nav-menu li
+  {
+    margin: 5vh 0;
+  }
+}
 @media (min-width: 992px) {
+
+  .video-button-text-small
+  {
+    left: -45px;
+  }
+  .video-button-text-small-new
+  {
+    left: -30px;
+  }
   .cowork-rubrik-item-new
   {
     height: 800px!important;
@@ -206,7 +229,19 @@
   }
 }
 @media (max-width: 991px) {
-
+  .slider-text {
+    max-width: 87%;
+  }
+  .contacts-block-comment textarea
+  {
+    resize: none;
+    background: url(/../img/textarea2.svg) 0 37px;
+    line-height: 2.6;
+  }
+  .slider-text
+  {
+    padding-right: 50px;
+  }
   .teamarks.teamarks-main
   {
     display: none;
@@ -249,7 +284,7 @@
 
     .map
   {
-    top: 190px;
+    top: 180px;
   }
   .footerContainer
   {
@@ -282,13 +317,13 @@
   }
   .history-carousel.owl-carousel .owl-item img
   {
-    width: 250px;
+    width: 80%;
     margin-left: 0;
   }
   .history-image
   {
     left: 0;
-    margin-top: 612px;
+    bottom: -85px;
   }
   .slider-text
   {
@@ -351,8 +386,6 @@
   }
   .contacts-block-comment textarea
   {
-    background-size: 100%;
-    line-height: 3.4;
   }
   .footerContainer
   {
@@ -407,6 +440,14 @@
 }
 
 @media (max-width: 800px) {
+  .ellipce-outer
+  {
+    left: 0;
+  }
+  .new-outer
+  {
+    left: -45px!important;
+  }
   .main-banner .flex-box div:first-child {
     width:100%;
   }
@@ -417,6 +458,19 @@
   .popup-logo
   {
     display: none;
+  }
+  #sync1 .item img
+  {
+    width: 190px;
+    height: 300px;
+  }
+  .popup-slider
+  {
+    margin: 0 30px;
+  }
+  .certificate.owl-nav
+  {
+    bottom: -117%;
   }
 }
 
@@ -439,6 +493,12 @@
       margin-bottom:30px;
       margin-left:10px!important;
     }
+  }
+}
+@media (min-width: 701px)  {
+  .owl-carouselDima
+  {
+    height: 750px;
   }
 }
 @media (max-width: 700px) {
@@ -472,6 +532,19 @@
 }
 @media (max-width: 560px)
 {
+  .header-nav-menu li a
+  {
+    font-size: 16px;
+  }
+  .burger-mobile .header-nav-menu li
+  {
+    margin: 3vh 0;
+  }
+  .certificate.owl-theme .owl-nav
+  {
+    bottom: -50%;
+    left: 35%;
+  }
   .feedback-block-modal {
     padding: 50px 30px!important;
     background-color: white;
@@ -511,8 +584,24 @@
   .main-banner {
     margin-top:30px;
   }
-
-
+  #sync1 .item
+  {
+   padding: 0;
+    flex-wrap: wrap;
+  }
+  #sync2 .owl-stage-outer
+  {
+    margin-left: 0;
+  }
+  #sync2 .item
+  {
+    width: 60px;
+    height: 100px;
+  }
+  .popup-slider
+  {
+    margin: 0;
+  }
 }
 @media (max-width: 400px){
   .banner-text-white, .banner-text-green {

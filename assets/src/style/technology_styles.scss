@@ -41,11 +41,18 @@
   bottom: auto;
   right: auto;
   top: auto;
-  width: 138px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 266px;
   height: 138px;
   margin-right: 200px;
 }
 
+.mt-40
+{
+  margin-top: 40px;
+}
 .banner-text-description {
   top: 10px;
   position: relative;

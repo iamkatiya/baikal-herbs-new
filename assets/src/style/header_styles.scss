@@ -110,6 +110,17 @@
   background-position-y: center;
   padding-left: 25px;
 }
+.russian
+{
+  background-image: url("/../img/Flag.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  padding-left: 25px;
+  margin-left: -25px;
+  margin-top: 10px;
+}
 .arabian
 {
   background-image: url("/../img/arabian.svg");
@@ -118,6 +129,41 @@
   background-position-x: left;
   background-position-y: center;
   padding-left: 25px;
+  margin-left: -25px;
+  margin-top: 10px;
+}
+.germany
+{
+  background-image: url("/../img/German.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  padding-left: 25px;
+  margin-left: -25px;
+  margin-top: 10px;
+}
+.korean
+{
+  background-image: url("/../img/Korea.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  padding-left: 25px;
+  margin-left: -25px;
+  margin-top: 10px;
+}
+.hindi
+{
+  background-image: url("/../img/India.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  padding-left: 25px;
+  margin-left: -25px;
+  margin-top: 10px;
 }
 .header-nav-menu-item-arrow
 {
